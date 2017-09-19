@@ -1,0 +1,195 @@
+body, html {
+  font: 400 15px/1.8 'Lato', sans-serif;
+  height: 100vh;
+  margin: 0;
+  color: #777;
+}
+
+h3 {
+  z-index: 3;
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #111;
+}
+
+#button {
+  display: block;
+  height: 80px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.caption {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption1 {
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption2 {
+  position: absolute;
+  right: 20%;
+  top: 25%;
+  width: 100%;
+  text-align: right;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption3 {
+  position: absolute;
+  right: 20%;
+  top: 75%;
+  width: 100%;
+  text-align: right;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption4 {
+  position: absolute;
+  right: 25%;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
+
+.caption5 {
+  position: absolute;
+  left: 0%;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+}
+
+.footer {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  font-size: 30px;
+  bottom: 17vh;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #000;
+}
+
+.titre {
+  font-family: 'Lobster', cursive;
+  position: sticky;
+  top: 40vh;
+  text-align: center;
+  color: #000;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+  position: relative;
+  z-index: 1;
+  margin-right: -15px;
+  margin-left: -15px;
+  opacity: .75;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  min-height: 100vh;
+  background-image: url('../@/earth-space.jpg');
+}
+
+.bgimg-2 {
+  min-height: 60vh;
+  background-image: url('../@/ciel.jpg');
+}
+
+.bgimg-3 {
+  min-height: 60vh;
+  background-image: url('../@/city.jpg');
+}
+
+.bgimg-4 {
+  min-height: 35vh;
+  background-image: url('../@/space.jpg');
+}
+
+.titanic-open-closed {
+  height: 150px;
+  padding: 20px;
+  position: sticky;
+}
+
+.titanic-expand-arrow {
+  position: sticky;
+  z-index: 1;
+  bottom: 1vh;
+  width: 100px;
+  background-color: transparent;
+}
+
+.titanic path {
+  fill: #08a3b3;
+  stroke: #08a3b3;
+}
+
+.cadreBlanc {
+  font-family: 'Raleway', cursive;
+  position: relative;
+  z-index: 3;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 50px 80px;
+  text-align: center;
+  color: #777;
+  background-color: white;
+}
+
+.cadreNoir {
+  position: relative;
+  z-index: 3;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding: 50px 80px;
+  text-align: center;
+  color: #ddd;
+  background-color: #282e34;
+}
+
+.cadrenoir2 {
+  background-color: #282e34;
+  margin-left: -15px;
+  margin-right: -15px
+}
+
+.stop-scrolling {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+@media only screen and (max-device-width: 1024px) {    /* Coupe le parallax pour les téléphones et tablettes*/
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+  }
+}

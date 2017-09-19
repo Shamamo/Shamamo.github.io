@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Developpeur web Saint-Nazaire">
+  <meta name="author" content="Jessy Marlot">
+  <title>Shama-studio</title>
+  <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+  <link href="@/logo.png" rel="icon" type="image/png" />
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan%7CLato%7CLobster%7CRaleway%7CRoboto" rel="stylesheet">
+  <!-- CDN pour google font -->
+</head>
+
+<body class="stop-scrolling" style="overflow-x: hidden;">
+  <div id="up"></div>
+  <!-- Div utilisée pour le scroll automatique -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <div class="bgimg-1">
+          <div class="titre">
+            <h1>Bienvenue !</h1>
+          </div>
+        </div>
+        <a href="#down" id="button" class="titanic titanic-expand-arrow col-centered"></a>
+        <!-- Flèche pour scroll vers le bas -->
+        <div class="cadreBlanc">
+          <div id="down" class="titanic titanic-open-closed" data-anijs="if: scroll, on: window, do: swing animated, before: scrollReveal"></div>
+          <div>
+            <p>En parallèle de mon cursus scientifique option science de l'ingénieur/informatique au lycée, j'ai étudié, en autodidacte, différents langages de programmation tel que le Basic, le C, le Java, ainsi que quelques langages web (HTML, CSS).</p>
+            <p>Suite à ça, je suis actuellement une formation à l'IMIE dans le but d'être developpeur web full stack. De ce fait, je suis à la recherche d'une alternance dans la région de Saint-Nazaire.</p>
+            <p>Durant celle-ci, j'ai eu l'occasion d'élargir mes compétences en étudiant les langages suivants: </p>
+          </div>
+        </div>
+        <div class="bgimg-2">
+          <div class="caption" data-anijs="if: scroll, on: window, do: slideInDown animated, before: scrollReveal">
+            <p>HTML</p>
+          </div>
+          <div class="caption1" data-anijs="if: scroll, on: window, do: slideInDown animated, before: scrollReveal">
+            <p>CSS</p>
+          </div>
+          <div class="caption2" data-anijs="if: scroll, on: window, do: slideInDown animated, before: scrollReveal">
+            <p>JavaScript</p>
+          </div>
+          <div class="caption3" data-anijs="if: scroll, on: window, do: slideInUp animated, before: scrollReveal">
+            <p>Node.js</p>
+          </div>
+          <div class="caption4" data-anijs="if: scroll, on: window, do: slideInUp animated, before: scrollReveal">
+            <p>PHP / MySQL</p>
+          </div>
+          <div class="caption5" data-anijs="if: scroll, on: window, do: slideInUp animated, before: scrollReveal">
+            <p>Python</p>
+          </div>
+        </div>
+        <div class="cadrenoir2">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="cadreNoir" data-anijs="if: scroll, on: window, do: slideInLeft animated, before: scrollReveal">
+                  <p>Geek passionné depuis toujours, je suis fan de jeux-vidéo, et de culture internet. Très intéressé par l'actualité hardware, j'ai découvert mon intérêt pour la programmation informatique à mon entrée au lycée en codant sur ma calculatrice, en TI-Basic. Je n'ai depuis cessé de m'intéresser à ce monde, en suivant des tutoriels sur internet, en montant mon propre serveur dédié, etc...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bgimg-3"></div>
+        <div class="cadrenoir2">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col">
+                <div class="cadreNoir" data-anijs="if: scroll, on: window, do: slideInRight animated, before: scrollReveal">
+                  <p class="contact">Me contacter:</p>
+                  <a class="col-3" href="mailto:marlotjessy@gmail.com">Email</a>
+                  <a class="col-3" href="https://www.linkedin.com/in/jessy-marlot-633472145/">LinkedIn</a>
+                  <a class="col-3" href="https://twitter.com/Jess_Marlot">Twitter</a>
+                  <a class="col-3" href="https://github.com/Shamamo">Github</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bgimg-4">
+          <div class="footer" data-anijs="if: scroll, on: window, do: fadeInUp animated, before: scrollReveal">Merci pour votre visite !</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.rawgit.com/icons8/titanic/master/dist/js/titanic.min.js"></script>
+  <!-- CDN pour icones animées -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/4.5.9/bodymovin.min.js"></script>
+  <!-- CDN pour icones animées -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- CDN pour jQuery-->
+  <script src="js/anijs/anijs-min.js"></script>
+  <!-- AniJS Core File -->
+  <script src="js/anijs/helpers/scrollreveal/anijs-helper-scrollreveal-min.js"></script>
+  <!-- ScrollReveal Helper -->
+  <script src="js/script.js" charset="utf-8"></script>
+</body>
+
+</html>
